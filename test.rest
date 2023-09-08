@@ -1,0 +1,23 @@
+###
+GET http://localhost:3006/pages
+
+###
+POST http://localhost:3006/pages/ HTTP/1.1
+Content-Type: application/json
+
+{
+        "id": 2,
+        "slug": "random string",
+        "title": "Home Page",
+        "description": "This is our home page, Welcome!",
+        "content": "Weverve systems website",
+        "tags": null,
+        "meta": null,
+        "show_in_menu": true,
+        "status": true
+}
+  
+
+
+###
+PUT http://localhost:3006/pages/1 
